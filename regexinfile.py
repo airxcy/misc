@@ -15,11 +15,11 @@ maxshow=int(str(sys.argv[argidx]))
 argidx+=1
 
 #shell color code
-colorMatch="\033[0;1;31m"
-colorNonMatch="\033[0;0;36m"
-colorLineNumb="\033[40;0;37m"
-colorSplit="\033[47;8;37m"
-colorNormal="\033[0m"
+colorMatch="\033[0;1;31m"#red
+colorNonMatch="\033[0;0;36m"#dark blue
+colorLineNumb="\033[40;0;37m"#white
+colorSplit="\033[47;8;37m"#white stripe
+colorNormal="\033[0m"#clear
 
 for afile in os.listdir(rootdir):
 	isInterested = False;
